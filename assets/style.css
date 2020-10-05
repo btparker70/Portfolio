@@ -5,11 +5,18 @@ body {
     background-color: #575757;
 }
 
+h2 {
+    text-align: center;
+}
+
+
+
 .container {
     margin: 10% auto 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
 .white {
