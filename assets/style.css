@@ -17,14 +17,33 @@ p {
     background-color: #212529;
 }
 
+.img-thumbnail {
+    border-width: 5px;
+    border-color: #575757;
+    margin: 5px;
+}
+
+.about-text-margin {
+    margin-left: 10px;
+}
+
 .about-me {
     margin: 5% auto 0 auto;
     justify-content: center;
     padding: 20px 50px 20px 50px;
 }
 
-.about-text-margin {
-    margin-left: 10px;
+@media (max-width: 1199px) {
+    .portfolio {
+        max-width: 520px;
+        padding: 0;
+    }
+}
+
+.portfolio {
+    margin: 5% auto 0 auto;
+    justify-content: center;
+    padding: 20px 50px 20px 50px;
 }
 
 .contact {
@@ -45,7 +64,7 @@ p {
 }
 
 .image-width {
-    max-width: 500px
+    max-width: 525px
 }
 /*
 .footer-height-test {
@@ -54,11 +73,4 @@ p {
 
 .container-portfolio-width {
     max-width: 520px;
-}
-
-@media screen and (max-width: 400px) {
-
-    .contact {
-        
-    }
 }
