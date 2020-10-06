@@ -34,3 +34,22 @@ h2 {
 .test-width{
     max-width: 270px;
 }
+
+.image-width {
+    max-width: 500px
+}
+/*
+.footer-height-test {
+    height: 50px;
+} */
+
+.container-portfolio-width {
+    max-width: 520px;
+}
+
+@media screen and (max-width: 400px) {
+
+    .h2 {
+        
+    }
+}
