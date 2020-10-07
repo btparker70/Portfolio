@@ -17,12 +17,6 @@ p {
     background-color: #212529;
 }
 
-.img-thumbnail {
-    border-width: 5px;
-    border-color: #575757;
-    margin: 5px;
-}
-
 .about-text-margin {
     margin-left: 10px;
 }
@@ -33,11 +27,10 @@ p {
     padding: 20px 50px 20px 50px;
 }
 
-
 .portfolio {
     margin: 5% auto 5% auto; 
     justify-content: center;
-    padding: 20px 50px 20px 50px;
+   /* padding: 20px 50px 20px 50px; */
 }
 
 .contact {
@@ -46,20 +39,26 @@ p {
     padding: 20px 50px 20px 50px;
 } 
 .white {
-    background-color: white;;
+    background-color: white;
 }
 
 .img-size-min {
     min-width: 383px;
 }
 
+.img-thumbnail {
+    border-width: 5px;
+    border-color: #575757;
+    margin: 1%;
+    max-width: 525px;
+    min-height: 525px;
+} 
+
 .test-width{
     max-width: 270px;
 }
 
-.image-width {
-    max-width: 525px
-}
+
 /*
 .footer-height-test {
     height: 50px;
@@ -68,18 +67,20 @@ p {
 .container-portfolio-width {
     max-width: 520px;
 }
-
+/*
 @media (max-width: 1199px) {
     .portfolio {
         max-width: 520px;
         padding: 0;
     }
-}
+} */
 
 @media (max-width: 575px) {
     .container {
-        background-color: blueviolet;
         margin: 0;
-        width: 100%;
+        margin-bottom: 20px;
+    }
+    .img-width-portfolio {
+        max-width: 300px;
     }
 }
