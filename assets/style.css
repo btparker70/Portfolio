@@ -5,10 +5,6 @@ body {
     background-color: #575757;
 }
 
-h2 {
-    text-align: center;
-}
-
 p {
     font-size: large;
 }
@@ -20,16 +16,14 @@ p {
     background-color: white;
 }
 
-.img-size-min {
-    min-width: 383px;
-}
-
+/*Images: About Me */
 .img-about-me {
     border-width: 5px;
     border-color: #575757;
     margin: 1%;
 } 
 
+/*Images: Portfolio */
 .img-thumbnail {
     border-width: 5px;
     border-color: #575757;
@@ -37,13 +31,10 @@ p {
     margin-bottom: 5%;
 }
 
+/*Center Row Conent*/
 .center {
     margin: 0 auto;
     width: 80%;
-}
-
-.test-width{
-    max-width: 270px;
 }
 
 /* Sub-Large Media */
