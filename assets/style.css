@@ -1,4 +1,4 @@
-
+/* Assets */
 html,
 body {
     height: 100%;
@@ -13,32 +13,10 @@ p {
     font-size: large;
 }
 
-.footer-color {
-    background-color: #212529;
-}
-
-.about-text-margin {
-    margin-left: 10px;
-}
-
-.about-me {
-    margin: 5% auto 5% auto; 
-    justify-content: center;
+/* Main Container */
+.container {
+    margin: 5% auto 5% auto;
     padding: 20px 50px 20px 50px;
-}
-
-.portfolio {
-    margin: 5% auto 5% auto; 
-    justify-content: center;
-   /* padding: 20px 50px 20px 50px; */
-}
-
-.contact {
-    margin: 5% auto 5% auto; 
-    justify-content: center;
-    padding: 20px 50px 20px 50px;
-} 
-.white {
     background-color: white;
 }
 
@@ -46,35 +24,40 @@ p {
     min-width: 383px;
 }
 
+.img-about-me {
+    border-width: 5px;
+    border-color: #575757;
+    margin: 1%;
+    align-items: center;
+} 
+
 .img-thumbnail {
     border-width: 5px;
     border-color: #575757;
     margin: 1%;
     max-width: 525px;
     min-height: 525px;
+    align-items: center;
 } 
+
+.center {
+    margin: 0 auto;
+    width: 80%;
+}
 
 .test-width{
     max-width: 270px;
 }
 
-
-/*
-.footer-height-test {
-    height: 50px;
-} */
-
 .container-portfolio-width {
     max-width: 520px;
 }
-/*
-@media (max-width: 1199px) {
-    .portfolio {
-        max-width: 520px;
-        padding: 0;
+@media (max-width: 1999px) {
+    .img-about-me {
+        width: 100%;
+        height: auto;
     }
-} */
-
+}
 @media (max-width: 575px) {
     .container {
         margin: 0;
@@ -83,4 +66,11 @@ p {
     .img-width-portfolio {
         max-width: 300px;
     }
+    .img-about-me {
+    }
+}
+
+/* Footer */
+.footer-color {
+    background-color: #212529;
 }
