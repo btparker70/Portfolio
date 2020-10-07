@@ -25,13 +25,41 @@ p {
 
 /*Images: Portfolio */
 .img-thumbnail {
+    display: block;
     border-width: 5px;
     border-color: #575757;
     margin: 1%;
     margin-bottom: 5%;
 }
 
-/*Center Row Conent*/
+/* Overlay */
+.overlay-effect {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .col-lg-6:hover .img-thumbnail {
+    opacity: 0.3;
+  }
+  
+  .col-lg-6:hover .overlay-effect {
+    opacity: 1;
+  }
+  
+  .overlay-text {
+    background-color: #212529;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+/*Center Row Content*/
 .center {
     margin: 0 auto;
     width: 80%;
@@ -51,7 +79,6 @@ p {
         margin: 0;
         margin-bottom: 20px;
     }
-
 }
 
 /* Footer */
