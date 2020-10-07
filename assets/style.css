@@ -28,17 +28,14 @@ p {
     border-width: 5px;
     border-color: #575757;
     margin: 1%;
-    align-items: center;
 } 
 
 .img-thumbnail {
     border-width: 5px;
     border-color: #575757;
     margin: 1%;
-    max-width: 525px;
-    min-height: 525px;
-    align-items: center;
-} 
+    margin-bottom: 5%;
+}
 
 .center {
     margin: 0 auto;
@@ -49,25 +46,21 @@ p {
     max-width: 270px;
 }
 
-.container-portfolio-width {
-    max-width: 520px;
-}
+/* Sub-Large Media */
 @media (max-width: 1999px) {
     .img-about-me {
         width: 100%;
         height: auto;
     }
 }
+
+/* Extra-Small Media */
 @media (max-width: 575px) {
     .container {
         margin: 0;
         margin-bottom: 20px;
     }
-    .img-width-portfolio {
-        max-width: 300px;
-    }
-    .img-about-me {
-    }
+
 }
 
 /* Footer */
