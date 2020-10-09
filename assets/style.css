@@ -9,11 +9,6 @@ p {
     font-size: large;
 }
 
-.icon-spacer {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
 /* Main Container */
 .container {
     margin: 5% auto 5% auto;
@@ -88,4 +83,10 @@ p {
 /* Footer */
 .footer-color {
     background-color: #212529;
+}
+
+/* Footer Icon */
+.icon-spacer {
+    padding-left: 15px;
+    padding-right: 15px;
 }
